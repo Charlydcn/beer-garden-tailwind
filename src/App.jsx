@@ -33,7 +33,7 @@ function App() {
             <Nav />
 
             <header className="double-img-container h-screen">
-                <img className="h-full object-cover" src={headerBg} alt="" />
+                <img className="h-full w-screen object-cover" src={headerBg} alt="" />
                 <img className="h-full object-scale-down max-w-[80vw]" src={headerText} alt="" />
             </header>
 
