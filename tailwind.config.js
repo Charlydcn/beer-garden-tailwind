@@ -15,7 +15,7 @@ export default {
           },
         },
         backgroundImage: {
-            'parallax': "url('public/img/tireuses-bieres.jpg')",
+            'parallax': "url('/img/tireuses-bieres.jpg')",
             'custom-gradient': 'linear-gradient(0deg, rgba(22,21,19,1) 10%, rgba(22,21,19,0) 50%, rgba(22,21,19,1) 90%)',
         }
       },
