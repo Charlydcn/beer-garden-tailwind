@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    :root {
+        --var-gold: 196, 156, 94;
+    }
+}
+
+body,
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.times-new {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+@layer components {
+    .double-img-container {
+        @apply relative overflow-hidden;
+    }
+
+    .double-img-container img:last-of-type {
+        @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+    }
+
+    .hoverable-img {
+        @apply relative overflow-hidden w-[378px] h-[378px];
+    }
+    
+    .hoverable-img:hover img {
+        @apply scale-125 transition-transform duration-500;
+    }
+}
