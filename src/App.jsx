@@ -132,7 +132,7 @@ function App() {
                     />
                     <div className="w-full h-full absolute top-0 bg-custom-gradient"></div>
                 </div>
-                <img className="absolute bottom-10 left-1/2" src={footerLogo} alt=""/>
+                <img className="absolute bottom-10 left-1/2 -translate-x-1/2" src={footerLogo} alt=""/>
             </footer>
         </>
     );
