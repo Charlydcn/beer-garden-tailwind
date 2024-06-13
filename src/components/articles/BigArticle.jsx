@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export default function BigArticle({ className = null, title, smallText, text, btn}) {
     return (
-        <article className={`flex flex-col text-center items-center justify-center w-3/4 mx-auto my-10 leading-7 ${className}`}>
+        <article className={`flex flex-col text-center max-w-[55rem] items-center justify-center w-3/4 mx-auto leading-7 ${className}`}>
             <h2 className='text-4xl mb-2 md:text-5xl'>{title}</h2>
             <p>
                 <small className='italic times-new text-base md:text-mg'>

@@ -37,7 +37,7 @@ function App() {
                 <img className="h-full object-scale-down max-w-[80vw]" src={headerText} alt="" />
             </header>
 
-            <section className="w-screen bg-gold text-slate-100 text-2xl font-extrabold text-center py-20 md:text-4xl xl:text-6xl">
+            <section className="bg-gold text-slate-100 text-2xl font-extrabold text-center py-20 md:text-4xl xl:text-6xl">
                 <p className="flex items-center justify-center max-w-[90vw] mx-auto">
                     &quot;LOVE AND MAGIC HAVE A GREAT DEAL IN COMMON.. THEY
                     ENRICH THE SOUL, DELIGHT THE HEART. AND THEY BOTH TAKE
