@@ -47,7 +47,7 @@ function App() {
 
             <section className="grid grid-cols-1 lg:grid-cols-4">
                 <BigArticle
-                    className="col-span-1 order-1 aspect-square lg:col-span-2"
+                    className="col-span-1 order-1 lg:col-span-2"
                     title="BEER TRADITION"
                     smallText="Tons of shortcodes provide countless options"
                     text="Edge Themes give you everything you need to create an amazing website. Designed and built with care, filled
@@ -57,18 +57,18 @@ function App() {
                     btn={<Button text="READ MORE"/>}
                 />
 
-                <div className="double-img-container aspect-square col-span-1 order-3 min-h-[50svh] lg:col-span-2 lg:order-2">
+                <div className="double-img-container sm:aspect-square col-span-1 order-3 min-h-[50svh] lg:min-h-0 lg:col-span-2 lg:order-2">
                     <img className="h-full w-full object-cover" src={barChairs} alt="" />
                     <img src={bestBeer} alt="" />
                 </div>
 
-                <div className="double-img-container aspect-square col-span-1 order-4 min-h-[50svh] lg:order-3 lg:col-span-2">
+                <div className="double-img-container sm:aspect-square col-span-1 order-4 min-h-[50svh] lg:min-h-0 lg:order-3 lg:col-span-2">
                     <img className="h-full w-full object-cover" src={barTable} alt="" />
                     <img src={drinkBeer} alt="" />
                 </div>
 
                 <BigArticle
-                    className="col-span-1 order-3 aspect-square lg:order-4 lg:col-span-2"
+                    className="col-span-1 order-3 lg:order-4 lg:col-span-2"
                     title="PUB STORY"
                     smallText="Tons of shortcodes provide countless options"
                     text="Edge Themes give you everything you need to create an amazing website. Designed and built with care, filled
