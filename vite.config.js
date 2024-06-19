@@ -11,4 +11,8 @@ export default defineConfig({
       plugins: [tailwindcss(), autoprefixer()],
     },
   },
+  server: {
+    host: true, // Permet l'accès à partir de n'importe quelle adresse IP
+    port: 7603
+  }
 });
