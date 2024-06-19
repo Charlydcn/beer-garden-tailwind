@@ -45,7 +45,7 @@ function App() {
                 </p>
             </section>
 
-            <section className="grid grid-cols-1 lg:grid-cols-4">
+            <section className="grid grid-cols-1 lg:grid-cols-4 items-center">
                 <BigArticle
                     className="col-span-1 order-1 lg:col-span-2"
                     title="BEER TRADITION"
